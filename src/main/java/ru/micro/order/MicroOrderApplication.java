@@ -1,13 +1,13 @@
-package ru.micro.customer;
+package ru.micro.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroCustomerApplication {
+public class MicroOrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroCustomerApplication.class, args);
+		SpringApplication.run(MicroOrderApplication.class, args);
 	}
 
 }
